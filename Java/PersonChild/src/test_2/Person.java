@@ -4,6 +4,7 @@ public class Person {
 	private String personname;
 	private String age;
 	private Book book;
+	private Person child;
 	
 	public Person(){}
 	public Person(String personname, String age){
@@ -32,6 +33,13 @@ public class Person {
 	}
 	public Book getBook(){
 		return book;
+	}
+	
+	public void setChild(Person child){
+		this.child = child;
+	}
+	public Person getChild(){
+		return child;
 	}
 
 }
