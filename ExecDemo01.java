@@ -14,9 +14,6 @@ class MyThread extends Thread {
 		System.out.println(Thread.currentThread().getName() + "线程、休眠"  
 			+ this.time + "毫秒");
 	} 
-	public String returnString(String str) {
-		return str+"1";	
-	}
 }
 public class ExecDemo01 {
 	public static void main(String[] args) {
